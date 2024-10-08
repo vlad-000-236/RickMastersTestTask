@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public interface SeedService {
 
-    public SeedModel getSeedById();
+    public SeedModel getSeedById(long id);
 
     public SeedModel removeSeed();
 

@@ -2,6 +2,8 @@ package com.VladIltekov.RickMastersTestTask.repositories;
 
 import com.VladIltekov.RickMastersTestTask.models.SeedModel;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Component;
 
-public interface BagRepository extends JpaRepository<SeedModel, Long> {
+@Component
+public interface SeedRepository extends JpaRepository <SeedModel, Long> {
 }
